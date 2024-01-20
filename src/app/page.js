@@ -5,7 +5,7 @@
 import {Card, CardHeader, CardBody, Image} from "@nextui-org/react";
 import styles from './page.module.css'
 import React, { useState, useEffect } from 'react';
-import Loading from "@/component/loading/Loading";
+import Loading from "./Loading";
 
 function Home() {
   const [pageData, setPageData] = useState();
@@ -17,7 +17,11 @@ function Home() {
   }, []);
 
   if (!pageData) {
-    return <div  > <Loading/> </div>;
+    return (
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+        <Loading/>
+      </div>
+    );
   }
   const { title, metadata } = pageData;
 

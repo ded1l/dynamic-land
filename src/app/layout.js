@@ -5,6 +5,8 @@ import Home from '@/component/Home/home'
 import Header from '@/component/header/Header'
 import { Providers } from './providers'
 import Footer from '@/component/footer/Footer'
+import { Suspense } from 'react'
+import Loading from './Loading'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,7 +24,9 @@ export default function RootLayout({ children }) {
   <div className='main'>
 <Header className="sticky-header" />     
    <Container>
+    <Suspense fallback={<div> <Loading/> </div>}>
         {children}
+    </Suspense>
         <Home/>
         </Container>
         <Footer/>
