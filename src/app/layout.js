@@ -4,6 +4,7 @@ import Container from '@/component/Container/container'
 import Home from '@/component/Home/home'
 import Header from '@/component/header/Header'
 import { Providers } from './providers'
+import Footer from '@/component/footer/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,11 +19,12 @@ export default function RootLayout({ children }) {
 
       <body className={inter.className}>
 <Providers>
-        <Container>
           <Header/>
+        <Container>
         {children}
         <Home/>
         </Container>
+        <Footer/>
         </Providers>
         </body>
     </html>

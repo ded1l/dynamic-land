@@ -7,7 +7,7 @@ const Header = () => {
         
 
 
-        <Navbar position="static">
+        <Navbar  position="static" style={{borderBottom:'0.8px solid #000'}} >
       <NavbarBrand>
         {/* website h1 logo  */}
         <NavbarBrand>
@@ -44,7 +44,8 @@ const Header = () => {
           </Button>
         </NavbarItem>
       </NavbarContent>
-    </Navbar>
+    </Navbar >
+
 
         
 

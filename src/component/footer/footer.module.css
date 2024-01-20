@@ -1,0 +1,12 @@
+.main{
+    width: 100%;
+color: #eee;
+    background-color: black;
+    height: 10em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.main span{
+    color: #49b591;
+}
