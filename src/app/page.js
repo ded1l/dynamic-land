@@ -5,9 +5,9 @@
 import {Card, CardHeader, CardBody, Image} from "@nextui-org/react";
 import styles from './page.module.css'
 import React, { useState, useEffect } from 'react';
+import Loading from "@/component/loading/Loading";
 
 function Home() {
-  const [templates, setTemplates] = useState(null);
   const [pageData, setPageData] = useState();
 
   useEffect(() => {
@@ -17,7 +17,7 @@ function Home() {
   }, []);
 
   if (!pageData) {
-    return <div>Loading...</div>;
+    return <div  > <Loading/> </div>;
   }
   const { title, metadata } = pageData;
 
@@ -26,13 +26,9 @@ function Home() {
     <ul className={styles.grid}>
       {pageData.map((pageData, index) => (
         <li key={index}>
-          {/* <div className="Page">
-      <h1>{title}</h1>
-      <img src={pageData.metadata.image} alt={title} />
-      <h2>{pageData.metadata.title}</h2>
-    </div> */}
+        
 
-
+{/*      to add to the card type pageData. what section . what object  */}
 
 
     <Card className="py-4">

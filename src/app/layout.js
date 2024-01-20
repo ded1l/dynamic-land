@@ -19,12 +19,14 @@ export default function RootLayout({ children }) {
 
       <body className={inter.className}>
 <Providers>
-          <Header/>
-        <Container>
+  <div className='main'>
+<Header className="sticky-header" />     
+   <Container>
         {children}
         <Home/>
         </Container>
         <Footer/>
+        </div>
         </Providers>
         </body>
     </html>

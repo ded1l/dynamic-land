@@ -21,12 +21,12 @@ const Header = () => {
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
           <Link color="foreground" href="#">
-            Features
+            home
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
           <Link href="#" aria-current="page">
-            Customers
+            about
           </Link>
         </NavbarItem>
         <NavbarItem>
@@ -40,8 +40,8 @@ const Header = () => {
           <Link href="#">Login</Link>
         </NavbarItem>
         <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="flat">
-            Sign Up
+          <Button as={Link} color="warning" href="#" variant="flat">
+            log out
           </Button>
         </NavbarItem>
       </NavbarContent>
