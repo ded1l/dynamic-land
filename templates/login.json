@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "title": "Page Title",
+    "keywords": "keyword1, keyword2, keyword3",
+    "description": "This is a description of the page."
+  },
+  "header": {
+    "content": "Header Content",
+    "image": "https://picsum.photos/800/200",
+    "classes": "nextui-header bg-blue-500 text-white p-4",
+    "links": [
+      { "text": "Home", "url": "/" },
+      { "text": "About", "url": "/about" }
+    ],
+    "button": { "text": "Click me", "action": "/some-action", "classes": "nextui-button primary" }
+  },
+   "footer": {
+    "content": "Footer Content",
+    "image": "https://picsum.photos/800/200",
+    "classes": "nextui-footer bg-blue-500 text-white p-4",
+    "links": [
+      { "text": "Privacy Policy", "url": "/privacy-policy" },
+      { "text": "Terms of Service", "url": "/terms-of-service" }
+    ]
+  },
+  "main": {
+    "content": "Main Content",
+    "image": "https://picsum.photos/800/200",
+    "classes": "nextui-main p-4",
+    "sections": [
+      { "title": "Section 1", "content": "This is the first section.", "image": "/path/to/image.jpg", "classes": "nextui-section" },
+      { "title": "Section 2", "content": "This is the second section.", "image": "/path/to/another-image.jpg", "classes": "nextui-section" }
+    ]
+  }
+}

@@ -1,17 +1,31 @@
 
-// import Grid from '../component/Grid/grid';
 
-import Home from "@/component/Home/home";
+  "use client";
 
-function App() {
-  return  
+import React, { useState, useEffect } from 'react';
 
+function Home() {
+  const [templates, setTemplates] = useState(null);
 
-  <div>
-  
-  </div>
+  useEffect(() => {
+    fetch('/api/hello')
+      .then(response => response.json())
+      .then(data => setTemplates(data));
+  }, []);
 
-    
+  if (!templates) {
+    return <div>Loading...</div>;
+  }
+
+  return (
+    <div className="Home">
+      <ul>
+        {templates.map((template, index) => (
+          <li key={index}>{template.title}</li>
+        ))}
+      </ul>
+    </div>
+  );
 }
 
-export default App;
+export default Home;
