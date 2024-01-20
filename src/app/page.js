@@ -8,7 +8,7 @@ function Home() {
   const [templates, setTemplates] = useState(null);
 
   useEffect(() => {
-    fetch('/api/hello')
+    fetch('/api/hello?templateName=')
       .then(response => response.json())
       .then(data => setTemplates(data));
   }, []);
@@ -19,13 +19,16 @@ function Home() {
 
   return (
     <div className="Home">
-      <ul>
-        {templates.map((template, index) => (
-          <li key={index}>{template.title}</li>
-        ))}
-      </ul>
-    </div>
+    <ul>
+      {templates.map((template, index) => (
+        <li key={index}>{template}</li>
+      ))}
+    </ul>
+  </div>
   );
 }
 
 export default Home;
+
+
+
