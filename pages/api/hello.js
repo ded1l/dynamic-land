@@ -18,11 +18,14 @@ export default function handler(req, res) {
       res.status(404).json({ message: 'Template not found' });
     }
   } else {
-    const templates = filenames.map(filename => filename.replace('.json', ''));
+    const templates = filenames.map(filename => {
+      const filePath = path.join(templatesDirectory, `${filename}`);
+      const fileContents = fs.readFileSync(filePath, 'utf8');
+      return JSON.parse(fileContents);
+    });
     res.status(200).json(templates);
   }
 }
-
 // const templates = filenames.map(filename => {
 //   const filePath = path.join(templatesDirectory, filename);
 //   const fileContents = fs.readFileSync(filePath, 'utf8');

@@ -1,11 +1,12 @@
 import React from 'react'
+import styles from './header.module.css'
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
 
 const Header = () => {
   return (
  
         
-
+<div className={styles.main}>
 
         <Navbar  position="static" style={{borderBottom:'0.8px solid #000'}} >
       <NavbarBrand>
@@ -49,7 +50,7 @@ const Header = () => {
 
         
 
-
+    </div>
         
   )
 }
