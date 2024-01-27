@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    font-family: sans-serif;
-}
 .sticky-header {
     position: sticky;
     top: 0;

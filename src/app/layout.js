@@ -1,12 +1,14 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
-import Container from '@/component/Container/container'
-import Home from '@/component/Home/home'
-import Header from '@/component/header/Header'
 import { Providers } from './providers'
-import Footer from '@/component/footer/Footer'
 import { Suspense } from 'react'
+import Container from '../component/Container/container'
+import Home from '../component/Home/home'
+import Header from '../component/header/Header'
+import Footer from '../component/footer/Footer'
 import Loading from './Loading'
+// import Loading from './Loading'
+
 
 const inter = Inter({ subsets: ['latin'] })
 

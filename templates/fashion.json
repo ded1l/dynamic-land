@@ -1,0 +1,278 @@
+{
+    "metadata": {
+      "title": "fashion template",
+      "image": "https://picsum.photos/650/430",
+      "classes": "nextui-page-login",
+      "keywords": "login, user, access",
+      "description": "This is the login page."
+    },
+    "banner":{
+      "containerClass": "fixed bottom-0 right-0 w-full md:bottom-8 md:right-12 md:w-auto z-50",
+      "contentClass": "bg-slate-800 text-slate-50 text-sm p-3 md:rounded shadow-lg flex justify-between",
+      "links": [
+        {
+          "class": "font-medium hover:underline text-slate-50",
+          "href": "https://github.com/cruip/tailwind-landing-page-template",
+          "target": "_blank",
+          "rel": "noreferrer",
+          "text": "Download on GitHub"
+        },
+        {
+          "class": "font-medium hover:underline text-emerald-400",
+          "href": "https://cruip.com/simple/",
+          "target": "_blank",
+          "rel": "noreferrer",
+          "text": "Check Premium Version"
+        }
+      ],
+      "buttonClass": "text-slate-500 hover:text-slate-400 pl-2 ml-3 border-l border-gray-700",
+      "svgClass": "w-4 h-4 shrink-0 fill-current",
+      "svgViewBox": "0 0 16 16",
+      "svgPath": "M12.72 3.293a1 1 0 00-1.415 0L8.012 6.586 4.72 3.293a1 1 0 00-1.414 1.414L6.598 8l-3.293 3.293a1 1 0 101.414 1.414l3.293-3.293 3.293 3.293a1 1 0 001.414-1.414L9.426 8l3.293-3.293a1 1 0 000-1.414z"
+    },
+    "logo": {
+      "link": {
+        "href": "/",
+        "className": "block",
+        "ariaLabel": "Cruip"
+      },
+      "svg": {
+        "className": "w-8 h-8",
+        "viewBox": "0 0 32 32",
+        "xmlns": "http://www.w3.org/2000/svg",
+        "defs": {
+          "radialGradient": {
+            "cx": "21.152%",
+            "cy": "86.063%",
+            "fx": "21.152%",
+            "fy": "86.063%",
+            "r": "79.941%",
+            "id": "footer-logo",
+            "stops": [
+              {
+                "stopColor": "#4FD1C5",
+                "offset": "0%"
+              },
+              {
+                "stopColor": "#81E6D9",
+                "offset": "25.871%"
+              },
+              {
+                "stopColor": "#338CF5",
+                "offset": "100%"
+              }
+            ]
+          }
+        },
+        "rect": {
+          "width": "32",
+          "height": "32",
+          "rx": "16",
+          "fill": "url(#footer-logo)",
+          "fillRule": "nonzero"
+        }
+      }
+    },
+    "header": {
+      "navItems": [
+        {
+          "text": "Home",
+          "url": "/",
+          "style": "text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+        },
+        {
+          "text": "About",
+          "url": "/about",
+          "style": "text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+        },
+        {
+          "text": "Contact",
+          "url": "/contact",
+          "style": "text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+        }
+     
+      ],
+      "mobileMenu": {
+        "style": "block lg:hidden"
+      }
+    },
+    
+      "footer": {
+        "blocks": [
+          {
+            "logo": {
+              "url": "#0",
+              "alt": "Logo",
+              "style": "ml-4"
+            },
+            "links": [
+              {
+                "text": "Terms",
+                "url": "#0",
+                "style": "text-gray-600 hover:text-gray-900"
+              },
+              {
+                "text": "Privacy Policy",
+                "url": "#0",
+                "style": "text-gray-600 hover:text-gray-900"
+              }
+            ]
+          },
+          {
+            "title": "Products",
+            "links": [
+              {
+                "text": "Web Studio",
+                "url": "#0",
+                "style": "text-gray-600 hover:text-gray-900"
+              },
+              {
+                "text": "DynamicBox Flex",
+                "url": "#0",
+                "style": "text-gray-600 hover:text-gray-900"
+              },
+              {
+                "text": "Programming Forms",
+                "url": "#0",
+                "style": "text-gray-600 hover:text-gray-900"
+              },
+              {
+                "text": "Integrations",
+                "url": "#0",
+                "style": "text-gray-600 hover:text-gray-900"
+              },
+              {
+                "text": "Command-line",
+                "url": "#0",
+                "style": "text-gray-600 hover:text-gray-900"
+              }
+            ]
+          },
+          {
+            "title": "Resources",
+            "links": [
+              {
+                "text": "Documentation",
+                "url": "#0",
+                "style": "text-gray-600 hover:text-gray-900"
+              },
+              {
+                "text": "Tutorials & Guides",
+                "url": "#0",
+                "style": "text-gray-600 hover:text-gray-900"
+              },
+              {
+                "text": "Blog",
+                "url": "#0",
+                "style": "text-gray-600 hover:text-gray-900"
+              },
+              {
+                "text": "Support Center",
+                "url": "#0",
+                "style": "text-gray-600 hover:text-gray-900"
+              },
+              {
+                "text": "Partners",
+                "url": "#0",
+                "style": "text-gray-600 hover:text-gray-900"
+              }
+            ]
+          },
+          {
+            "title": "Company",
+            "links": [
+              {
+                "text": "Home",
+                "url": "#0",
+                "style": "text-gray-600 hover:text-gray-900"
+              },
+              {
+                "text": "About us",
+                "url": "#0",
+                "style": "text-gray-600 hover:text-gray-900"
+              },
+              {
+                "text": "Company values",
+                "url": "#0",
+                "style": "text-gray-600 hover:text-gray-900"
+              },
+              {
+                "text": "Pricing",
+                "url": "#0",
+                "style": "text-gray-600 hover:text-gray-900"
+              },
+              {
+                "text": "Privacy Policy",
+                "url": "#0",
+                "style": "text-gray-600 hover:text-gray-900"
+              }
+            ]
+          },
+          {
+            "title": "Subscribe",
+            "description": "Get the latest news and articles to your inbox every month.",
+            "form": {
+              "inputPlaceholder": "Your email",
+              "buttonLabel": "Subscribe",
+              "style": "text-gray-600 hover:text-gray-900"
+            }
+          }
+        ],
+        "socialLinks": [
+          {
+            "platform": "Twitter",
+            "url": "#0",
+            "style": "flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+          },
+          {
+            "platform": "Github",
+            "url": "#0",
+            "style": "flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+          },
+          {
+            "platform": "Facebook",
+            "url": "#0",
+            "style": "flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+          }
+        ],
+        "copyright": {
+          "text": "&copy; Cruip.com. All rights reserved.",
+          "style": "text-sm text-gray-600 mr-4"
+        }
+      }
+    ,
+    "mobileMenu": {
+      "links": [
+        {
+          "href": "/signin",
+          "className": "flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center",
+          "text": "Sign in"
+        },
+        {
+          "href": "/signup",
+          "className": "btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 w-full my-2",
+          "text": "Sign up",
+          "svg": {
+            "className": "w-3 h-3 fill-current text-gray-400 shrink-0 ml-2 -mr-1",
+            "viewBox": "0 0 12 12",
+            "path": {
+              "d": "M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z",
+              "fill": "#999",
+              "fillRule": "nonzero"
+            }
+          }
+        }
+      ]
+    }
+    ,
+
+    "main": {
+        "content": "Main Content",
+        "image": "https://picsum.photos/800/200",
+        "classes": "nextui-main p-4",
+        "sections": [
+          { "title": "Section 1", "content": "This is the first section.", "image": "/path/to/image.jpg", "classes": "nextui-section" },
+          { "title": "Section 2", "content": "This is the second section.", "image": "/path/to/another-image.jpg", "classes": "nextui-section" }
+        ]
+      }
+  }

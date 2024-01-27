@@ -1,8 +1,9 @@
-.grid{
+ul.grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+    margin: 0 0 0 0;
 }
 .Home{
-    height: 45vh;
+    height: 95vh;
 }

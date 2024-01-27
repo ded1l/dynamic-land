@@ -6,6 +6,7 @@ import {Card, CardHeader, CardBody, Image} from "@nextui-org/react";
 import styles from './page.module.css'
 import React, { useState, useEffect } from 'react';
 import Loading from "./Loading";
+import Link from "next/link";
 
 function Home() {
   const [pageData, setPageData] = useState();
@@ -18,7 +19,7 @@ function Home() {
 
   if (!pageData) {
     return (
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <Loading/>
       </div>
     );
@@ -34,7 +35,9 @@ function Home() {
 
 {/*      to add to the card type pageData. what section . what object  */}
 
-
+<Link href=
+{`/preview`}
+>
     <Card className="py-4">
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
         {/* <p className="text-tiny uppercase font-bold">Daily Mix</p>
@@ -48,7 +51,7 @@ function Home() {
       </CardBody>
     </Card>
 
-
+    </Link>
 
 
 
