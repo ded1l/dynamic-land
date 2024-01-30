@@ -3,8 +3,8 @@
 import { useState, useRef, useEffect } from 'react'
 import { Transition } from '@headlessui/react'
 import Image from 'next/image'
-import FeaturesBg from '@/public/images/features-bg.png'
-import FeaturesElement from '@/public/images/features-element.png'
+import FeaturesBg from '../../public/features-bg.png'
+import FeaturesElement from '../../public/features-element.png'
 
 export default function Features() {
   
