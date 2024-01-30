@@ -41,7 +41,7 @@ function App() {
         ))}
         {header.button && <Button className={header.button.classes}>{header.button.text}</Button>}
       </header>
-      <Banner />
+    
      <h1>hi this is not okay</h1>
       <main className={main.classes}>
        
