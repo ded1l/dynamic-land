@@ -7,6 +7,7 @@ import styles from './page.module.css'
 import React, { useState, useEffect } from 'react';
 import Loading from "./Loading";
 import Link from "next/link";
+import Banner from "../../pages/template-components/banner";
 
 function Home() {
   const [pageData, setPageData] = useState();
@@ -57,9 +58,10 @@ function Home() {
 
 
           </li>
-        
+     
       ))}
     </ul>
+    <Banner />
   </div>
   );
 }

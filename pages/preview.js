@@ -3,6 +3,8 @@ import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react';
 import { Button } from '@nextui-org/react';
 import Loading from '../src/app/Loading';
+import Banner from '../pages/template-components/banner';
+import Header from '../pages/template-components/ui/header';
 function App() {
   const router = useRouter();
   const { id } = router.query;
@@ -39,9 +41,10 @@ function App() {
         ))}
         {header.button && <Button className={header.button.classes}>{header.button.text}</Button>}
       </header>
-     
+      <Banner />
+     <h1>hi this is not okay</h1>
       <main className={main.classes}>
-        
+       
         {main.content}
         {main.image && <img src={main.image} alt="" />}
         {main.sections.map((section, index) => (
@@ -50,6 +53,7 @@ function App() {
             <p>{section.content}</p>
             {section.image && <img src={section.image} alt="" />}
           </section>
+          
         ))}
       </main>
 
