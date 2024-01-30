@@ -61,7 +61,7 @@ function Home() {
      
       ))}
     </ul>
-    <Banner />
+  
   </div>
   );
 }
