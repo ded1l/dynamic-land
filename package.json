@@ -19,7 +19,7 @@
     "sharp": "^0.33.2"
   },
   "engines": {
-    "node": "21.6.1"
+    "node": "18.19.0"
   },
 
   "devDependencies": {
