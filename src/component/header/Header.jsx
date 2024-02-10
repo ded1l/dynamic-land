@@ -6,34 +6,30 @@ const Header = () => {
   return (
  
         
-<div className={styles.main}>
 
-        <Navbar  position="static" style={{borderBottom:'0.8px solid #000'}} >
+
+        <Navbar  position="sticky" style={{borderBottom:'0.8px solid #000', margin:'0 0 0.8em 0', fontSize :'1em' }} >
       <NavbarBrand>
         {/* website h1 logo  */}
         <NavbarBrand>
-                        <h1 >LALALAND</h1>
+                        <h1  href="#" className='font-bold text-xl' >Nebula</h1>
                     </NavbarBrand>
         
         
         
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarItem>
-          <Link color="foreground" href="#">
+      
+        <NavbarItem >
+          <Link href="#" aria-current="page">
             home
           </Link>
         </NavbarItem>
-        <NavbarItem isActive>
-          <Link href="#" aria-current="page">
-            about
-          </Link>
-        </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
-            Integrations
-          </Link>
-        </NavbarItem>
+        <Link color="foreground" href="#">
+          about
+        </Link>
+      </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex">
@@ -50,7 +46,7 @@ const Header = () => {
 
         
 
-    </div>
+    
         
   )
 }

@@ -25,24 +25,24 @@ function App() {
 
   return (
     <div className={pageData.classes}>
-    <head>
-      <title>{metadata?.title}</title>
-      <meta name="keywords" content={metadata.keywords} />
+   <head>
+        <title>{metadata.title}</title>
+        <meta name="keywords" content={metadata.keywords} />
       <meta name="description" content={metadata.description} />
       <meta property="og:image" content={metadata.image} />
-    </head>
+      </head>
       <header className={header.classes}>
-        {header.content}
-        {header.image && <img src={header.image} alt="" />}
-        {header.navItems.map((item, index) => (
-          <a key={index} href={item.url} className={item.style}>
-            {item.text}
-          </a>
-        ))}
-        {header.button && <Button className={header.button.classes}>{header.button.text}</Button>}
-      </header>
+      {header.content}
+      {header.image && <img src={header.image} alt="" />}
+      {header.navItems.map((item, index) => (
+        <a key={index} href={item.url} className={item.style}>
+          {item.text}
+        </a>
+      ))}
+      {header.button && <Button className={header.button.classes}>{header.button.text}</Button>}
+    </header>
+    <Banner/>
     
-     <h1>hi this is not okay</h1>
       <main className={main.classes}>
        
         {main.content}

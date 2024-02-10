@@ -11,6 +11,8 @@ const config = {
     './pages/**/*.{js,ts,jsx,tsx}',
     './pages/template-components/**/*.{js,ts,jsx,tsx}',
   ],
+
+  
   theme: {
     extend: {},
   },
