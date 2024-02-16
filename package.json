@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint"
   },
+  
   "dependencies": {
     "@headlessui/react": "^1.7.18",
     "@nextui-org/react": "^2.2.9",
