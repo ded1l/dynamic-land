@@ -12,7 +12,7 @@ const Header = () => {
       <NavbarBrand>
         {/* website h1 logo  */}
         <NavbarBrand>
-                        <h1  href="#" className='font-bold text-xl' >Nebula</h1>
+                     <Link href='/'  >  <h1  className='font-bold text-xl' >Nebula</h1></Link> 
                     </NavbarBrand>
         
         

@@ -5,7 +5,9 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <div className={styles.main}>
-                <Container>
+                <Container styles={{   
+
+                }}>
             <div>
                     
                 <p>rights received <Link href='https://www.instagram.com/aon.iq?igsh=MjlrNDE3enU2eHli' alt='' ><span>AON</span></Link> 2024

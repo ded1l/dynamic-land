@@ -2,11 +2,14 @@
     margin: 15em 0 0 0;    ;
     width: 100%;
 color: #eee;
+position: relative;
     background-color: black;
     height: 10em;
+    bottom: 0;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    margin-top: 40em;
 }
 .main span{
     color: #49b591;

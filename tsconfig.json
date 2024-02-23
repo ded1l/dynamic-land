@@ -28,7 +28,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "pages/template-components/banner.tsx"  ],
+, "pages/template-components/banner.tsx", "src/app/banner.jsx", "src/app/template-components/banner.jsx", "pages/template-components/hero.jsx"  ],
   "exclude": [
     "node_modules"
   ]

@@ -19,7 +19,7 @@ function Home() {
 
   if (!pageData) {
     return (
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh', margin:'8vh' }}>
         <Loading/>
       </div>
     );
@@ -28,6 +28,7 @@ function Home() {
 
   return (
     <div className={styles.Home}>
+    
     <ul className={styles.grid}>
       {pageData.map((pageData, index) => (
         <li key={index}>
@@ -38,6 +39,7 @@ function Home() {
 <Link href=
 {`/preview`}
 >
+
     <Card className="py-4">
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
         {/* <p className="text-tiny uppercase font-bold">Daily Mix</p>
@@ -56,9 +58,11 @@ function Home() {
 
 
 
+    
+
           </li>
-     
       ))}
+    <h1 className="text-4xl font-bold"></h1>
     </ul>
   
   </div>
