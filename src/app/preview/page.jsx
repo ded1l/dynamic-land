@@ -33,13 +33,13 @@ function App() {
   return (
     <div className='main' style={{  padding:'92px', margin:'8px' }}>
     
-            {/* <Hero /> */}
+            <Hero />
             <Banner />
-            {/* <FeaturesBlocks />
+            <FeaturesBlocks />
             <Features />
             <ModalVideo />
             <Newsletter />
-            <Testimonials /> */}
+            <Testimonials />
 
   
      

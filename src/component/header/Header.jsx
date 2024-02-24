@@ -6,14 +6,14 @@ const Header = () => {
   return (
  
         
+//  position="sticky" style={{borderBottom:'0.8px solid #000', margin:'0 0 0.8em 0', fontSize :'1em' }}
 
-
-        <Navbar  position="sticky" style={{borderBottom:'0.8px solid #000', margin:'0 0 0.8em 0', fontSize :'1em' }} >
+        <Navbar className=' font  m-2vh' >
       <NavbarBrand>
         {/* website h1 logo  */}
         <NavbarBrand>
-                     <Link href='/'  >  <h1  className='font-bold text-xl' >Nebula</h1></Link> 
-                    </NavbarBrand>
+                     <Link href=''  >  <h1  className='font-bold text-xl' >Nebula</h1></Link> 
+                    </NavbarBrand> 
         
         
         

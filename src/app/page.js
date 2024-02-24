@@ -19,7 +19,7 @@ function Home() {
 
   if (!pageData) {
     return (
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh', margin:'8vh' }}>
+      <div className="flex justify-center items-center h-10vh m-8vh">
         <Loading/>
       </div>
     );
